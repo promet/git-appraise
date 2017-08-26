@@ -41,7 +41,7 @@ var (
 	requestMessage          = requestFlagSet.String("m", "", "Message to attach to the review")
 	requestReviewers        = requestFlagSet.String("r", "", "Comma-separated list of reviewers")
 	requestSource           = requestFlagSet.String("source", "HEAD", "Revision to review")
-	requestTarget           = requestFlagSet.String("target", "refs/heads/master", "Revision against which to review")
+	requestTarget           = requestFlagSet.String("target", "refs/heads/develop", "Revision against which to review")
 	requestQuiet            = requestFlagSet.Bool("quiet", false, "Suppress review summary output")
 	requestAllowUncommitted = requestFlagSet.Bool("allow-uncommitted", false, "Allow uncommitted local changes.")
 )
