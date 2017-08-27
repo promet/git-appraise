@@ -25,7 +25,7 @@ import (
 )
 
 // Ref defines the git-notes ref that we expect to contain review requests.
-const Ref = "refs/notes/devtools/reviews"
+const Ref = "refs/notes/pullrequests/reviews"
 
 // FormatVersion defines the latest version of the request format supported by the tool.
 const FormatVersion = 0

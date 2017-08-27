@@ -26,7 +26,7 @@ import (
 
 const (
 	// Ref defines the git-notes ref that we expect to contain CI reports.
-	Ref = "refs/notes/devtools/ci"
+	Ref = "refs/notes/pullrequests/ci"
 
 	// StatusSuccess is the status string representing that a build and/or test passed.
 	StatusSuccess = "success"

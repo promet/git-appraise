@@ -21,8 +21,8 @@ import (
 	"github.com/promet/git-appraise/repository"
 )
 
-const notesRefPattern = "refs/notes/devtools/*"
-const archiveRefPattern = "refs/devtools/archives/*"
+const notesRefPattern = "refs/notes/pullrequests/*"
+const archiveRefPattern = "refs/pullrequests/archives/*"
 const commentFilename = "APPRAISE_COMMENT_EDITMSG"
 
 // Command represents the definition of a single command.

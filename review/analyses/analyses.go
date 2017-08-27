@@ -28,7 +28,7 @@ import (
 
 const (
 	// Ref defines the git-notes ref that we expect to contain analysis reports.
-	Ref = "refs/notes/devtools/analyses"
+	Ref = "refs/notes/pullrequests/analyses"
 
 	// StatusLooksGoodToMe is the status string representing that analyses reported no messages.
 	StatusLooksGoodToMe = "lgtm"

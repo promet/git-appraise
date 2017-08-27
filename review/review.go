@@ -29,7 +29,7 @@ import (
 	"sort"
 )
 
-const archiveRef = "refs/devtools/archives/reviews"
+const archiveRef = "refs/pullrequests/archives/reviews"
 
 // CommentThread represents the tree-based hierarchy of comments.
 //
@@ -611,7 +611,7 @@ func (r *Review) AddComment(c comment.Comment) error {
 // Rebase performs an interactive rebase of the review onto its target ref.
 //
 // If the 'archivePrevious' argument is true, then the previous head of the
-// review will be added to the 'refs/devtools/archives/reviews' ref prior
+// review will be added to the 'refs/pullrequests/archives/reviews' ref prior
 // to being rewritten. That ensures the review history is kept from being
 // garbage collected.
 func (r *Review) Rebase(archivePrevious bool) error {

@@ -39,8 +39,8 @@ const (
 	TestTargetRef          = "refs/heads/master"
 	TestReviewRef          = "refs/heads/ojarjur/mychange"
 	TestAlternateReviewRef = "refs/review/mychange"
-	TestRequestsRef        = "refs/notes/devtools/reviews"
-	TestCommentsRef        = "refs/notes/devtools/discuss"
+	TestRequestsRef        = "refs/notes/pullrequests/reviews"
+	TestCommentsRef        = "refs/notes/pullrequests/discuss"
 
 	TestCommitA = "A"
 	TestCommitB = "B"
@@ -386,7 +386,7 @@ func (r *mockRepoForTest) SwitchToRef(ref string) error {
 //
 // Both the 'ref' and 'archive' arguments are expected to be the fully
 // qualified names of git refs (e.g. 'refs/heads/my-change' or
-// 'refs/archive/devtools').
+// 'refs/archive/pullrequests').
 //
 // If the ref pointed to by the 'archive' argument does not exist
 // yet, then it will be created.

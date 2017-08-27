@@ -105,7 +105,7 @@ type Repo interface {
 	//
 	// Both the 'ref' and 'archive' arguments are expected to be the fully
 	// qualified names of git refs (e.g. 'refs/heads/my-change' or
-	// 'refs/archive/devtools').
+	// 'refs/archive/pullrequests').
 	//
 	// If the ref pointed to by the 'archive' argument does not exist
 	// yet, then it will be created.

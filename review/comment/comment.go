@@ -27,7 +27,7 @@ import (
 )
 
 // Ref defines the git-notes ref that we expect to contain review comments.
-const Ref = "refs/notes/devtools/discuss"
+const Ref = "refs/notes/pullrequests/discuss"
 
 // FormatVersion defines the latest version of the comment format supported by the tool.
 const FormatVersion = 0
