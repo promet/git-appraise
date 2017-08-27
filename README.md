@@ -21,7 +21,7 @@ is installing the client on your workstation.
 Assuming you have the [Go tools installed](https://golang.org/doc/install), run
 the following command:
 
-    go get github.com/google/git-appraise/git-appraise
+    go get github.com/promet/git-appraise/git-appraise
 
 Then, either make sure that `${GOPATH}/bin` is in your PATH, or explicitly add the
 "appraise" git alias by running the following command.

@@ -19,7 +19,7 @@ package output
 
 import (
 	"fmt"
-	"github.com/google/git-appraise/review"
+	"github.com/promet/git-appraise/review"
 	"strconv"
 	"strings"
 	"time"

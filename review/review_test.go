@@ -17,9 +17,9 @@ limitations under the License.
 package review
 
 import (
-	"github.com/google/git-appraise/repository"
-	"github.com/google/git-appraise/review/comment"
-	"github.com/google/git-appraise/review/request"
+	"github.com/promet/git-appraise/repository"
+	"github.com/promet/git-appraise/review/comment"
+	"github.com/promet/git-appraise/review/request"
 	"sort"
 	"testing"
 )

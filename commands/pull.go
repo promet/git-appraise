@@ -19,7 +19,7 @@ package commands
 import (
 	"errors"
 	"fmt"
-	"github.com/google/git-appraise/repository"
+	"github.com/promet/git-appraise/repository"
 )
 
 // pull updates the local git-notes used for reviews with those from a remote repo.

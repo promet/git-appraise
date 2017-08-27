@@ -17,37 +17,37 @@ limitations under the License.
 package ci
 
 import (
-	"github.com/google/git-appraise/repository"
+	"github.com/promet/git-appraise/repository"
 	"testing"
 )
 
 const testCINote1 = `{
 	"Timestamp": "4",
-	"URL": "www.google.com",
+	"URL": "www.prometsource.com",
 	"Status": "success"
 }`
 
 const testCINote2 = `{
 	"Timestamp": "16",
-	"URL": "www.google.com",
+	"URL": "www.prometsource.com",
 	"Status": "failure"
 }`
 
 const testCINote3 = `{
 	"Timestamp": "30",
-	"URL": "www.google.com",
+	"URL": "www.prometsource.com",
 	"Status": "something else"
 }`
 
 const testCINote4 = `{
 	"Timestamp": "28",
-	"URL": "www.google.com",
+	"URL": "www.prometsource.com",
 	"Status": "success"
 }`
 
 const testCINote5 = `{
 	"Timestamp": "27",
-	"URL": "www.google.com",
+	"URL": "www.prometsource.com",
 	"Status": "success"
 }`
 

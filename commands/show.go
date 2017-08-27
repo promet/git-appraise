@@ -20,9 +20,9 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	"github.com/google/git-appraise/commands/output"
-	"github.com/google/git-appraise/repository"
-	"github.com/google/git-appraise/review"
+	"github.com/promet/git-appraise/commands/output"
+	"github.com/promet/git-appraise/repository"
+	"github.com/promet/git-appraise/review"
 	"strings"
 )
 
